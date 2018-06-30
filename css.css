@@ -1,0 +1,92 @@
+.header4{
+	padding-left:8px;
+	border-bottom:2px solid white;
+}
+#el1:active{
+	border:2px solid #8000ff;
+}
+#el2:active{
+	border:2px solid #8000ff;
+}
+#a1{
+	font-size:90%;
+}
+#a2{
+	font-size:90%;
+}
+#a3{
+	font-size:90%;
+}
+#a1:hover{
+	border-bottom:2px solid white;
+}
+#a2:hover{
+	border-bottom:2px solid white;
+
+}
+#a3:hover{
+	border-bottom:2px solid white;
+}
+@font-face{
+font-family:Solitaz;
+src: url(font-family/11452.otf);
+}
+@font-face{
+	font-family:Stolzl-li;
+	src:url(font-family/11450.otf);
+}
+@font-face{
+	font-family:Solitaz-Regular;
+	src:url(font-family/11449.otf);
+}
+#animate{
+	animation-name:myname;
+	animation-iteration-count:infinite;
+	animation-direction: alternate;
+	animation-duration: 2s;
+}
+@-webkit-keyframes myname{
+	from{
+     transform: scale(1.0);
+	}
+	to{
+     transform: scale(1.5);
+     color:lightgreen;
+	}
+}
+#it{
+	animation-name:itschool;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+	animation-timing-function:linear;
+}
+@-webkit-keyframes itschool{
+	from{
+		opacity:1;
+	}
+	to{
+      opacity:0.2;
+	}
+}
+#but{
+	border-radius:4px;
+	background: #e60000;
+	color:white;
+	font-size:14px;
+	height:35px;
+	width:150px;
+	font-family:"Solitaz";
+	animation-name:buttons;
+	animation-duration:2s;
+	animation-timing-function:linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@-webkit-keyframes buttons{
+	0%{
+		transform: rotateY(0deg);
+	}
+	100%{
+		transform:rotateY(90deg);
+	}
+}
